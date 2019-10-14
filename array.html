@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Self Array Method</title>
+</head>
+<body>
+    <script>
+//         // reduce方法实现
+//         Array.prototype.myReduce = function(fn,initialValue){
+//             let array = this;
+//             let result = initialValue || 0;
+//             for(let i = 0; i < array.length ; i++){
+//                 result = fn.call(null,result,array[i],i,array);
+//             }
+//             return result;
+//         }
+//         const array1 = [1,2,3,4];
+//         const reducer = (accumulator,currentValue) => accumulator + currentValue;
+//         let result1 = array1.myReduce(reducer,1);
+//         let result2 = array1.reduce(reducer,1);
+
+//         // 百度promise笔试题
+//         let promiseA = Promise.resolve('a');
+//         promiseA.then(res => {
+//             console.log(res);
+//         }).then(res => console.log(res));
+//         promiseA.then(res => console.log(res));
+//         promiseA.then(res => console.log(res));
+
+//         // 实现字符串反转的函数（快手）
+//         let s = 'Hello World yes';
+//         String.prototype.myReverse = function(){
+//             let s = this;
+//             let sArray = s.split(' '); // 如果是整个字符串反转则split空格 如果单词里面每个字母都需要反转则无需空格
+//             console.log(sArray);
+//             for(let i = 0;i < (sArray.length/2);i++){
+//                 let length = sArray.length;
+//                 let temp  = sArray[i];
+//                 sArray[i] = sArray[length - 1 -i];
+//                 sArray[length - 1 -i] = temp;
+//             }
+//             s = sArray.join(' ');
+//             return s;
+//         }
+//         // test 
+//         function A(a){
+//             return function B(b){
+//                 if(typeof b === 'number'){
+//                     let sum = a + b;
+//                     return A(sum)
+//                 } else {
+//                     return a;
+//                 }
+                
+//             }
+//         }
+//         Promise.myAll = function (promiseArray){
+//             return new Promise( function (resolve,rejected){
+//                 if(!Array.isArray(promiseArray)){
+//                     throw new Error('Please put an array');
+//                 }
+//                 let resultArray = [];
+//                 let i = 0;
+//                 next();
+//                 function next(){
+//                     Promise.resolve(promiseArray[i]).then(res => {
+//                        resultArray.push(res);
+//                        console.log(res,i);
+//                        i++
+//                        if(i === (promiseArray.length)){
+//                           resolve(resultArray);
+//                        } else {
+//                           next();
+//                     }
+//                   },rejected => rejected);
+//                 }
+//             });
+//         }
+//         var promise1 = Promise.resolve(3);
+//         var promise2 = 42;
+//         var promise3 = new Promise(function(resolve, reject) {
+//             setTimeout(resolve, 100, 'foo');
+//         });
+//         Promise.myAll([promise1,promise2,promise3]).then(res => console.log(res));
+
+//         // 深拷贝
+// this.a = 20;
+// var test = {
+//     a: 40,
+//     init: () => {
+//         console.log(this.a);
+//         function go() {
+//             this.a = 60;
+//             console.log(this.a);
+//         }
+//         go.prototype.a = 50;
+//         return go;
+//     }
+// };
+// var p = test.init();
+// p();
+// console.log(Object.prototype.toString.call([1,2,3]));
+// console.log([]);
+// Object.prototype.myString = function(){
+//     console.log('Hello');
+// }
+// Array.prototype.myString = function(){
+//     console.log('Hello World');
+// }
+// Object.prototype.myString();
+// Array.prototype.myString();
+// 
+
+// 'use strict';
+// var b = 2;
+// if (true) {
+//     let a = 2;
+//     var b = 3;
+//     var c = 4;
+//     const d = 5;
+// }
+ 
+// // console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// var d = 6;
+// //
+
+
+// let promise = new Promise((resolve, reject) => {
+//   throw new Error()
+//   reject()
+// })
+// promise.catch(err => {
+//   console.log(err)
+// })
+
+// 深拷贝 解决循环引用的问题
+function depClone(obj,parent){
+    let newObj = Array.isArray(obj) ? [] : {};
+    let keys = Object.keys(obj);
+    let _parent = parent;
+    while(_parent){
+        if(_parent.originParent === obj){
+            return _parent.currentParent
+        }
+        _parent = _parent.parent;
+    }
+    console.log(keys);
+    for(let key of keys){
+        if(typeof obj[keys] === 'object'){
+            newObj[key] = depClone(obj[keys],{
+                originParent: obj,
+                currentParent: newObj,
+                parent: parent
+            })
+        } else {
+            newObj[key] = obj[key]
+        }
+    }
+    return newObj;
+}
+// // 深拷贝 解决同级引用的问题
+// function depClone2(obj){
+//     let map = new WeakMap();
+//     let existObj = map.get(obj);
+//     if(existObj){
+//         return existObj
+//     }
+//     let newObj = Array.isArray(obj) ? [] : {};
+//     let keys = Object.keys(obj);
+//     map.set(obj,newObj);
+//     for(let key of keys){
+//         if(typeof obj[keys] === 'object'){
+//             newObj[key] = depClone(obj[keys],{
+//                 originParent: obj,
+//                 currentParent: newObj,
+//                 parent: parent
+//             })
+//         } else {
+//             newObj[key] = obj[key]
+//         }
+//     }
+//     return newObj;
+// }
+// let obj1 = {
+//     a: '1',
+//     b: '2',
+// }
+// obj1.z = obj1;
+// let depCloneObj = depClone(obj1);
+// depCloneObj.a = 2;
+// console.log(depCloneObj,obj1);
+// let depCloneArr = depClone([1,2,3]);
+// depCloneArr[2] = 4;
+// console.log(depCloneArr);
+// 美团测试题
+// const log = () => {
+//     var log = 0;
+//     var count = log ++;
+//     console.log(count);
+//     setTimeout(function(){
+//         console.log(count)
+//     },Math.random(10*1000%100))
+// };
+// log(); //0
+// log(); //0
+// 执行上下文（this）
+// let foo = {
+//   baz: function() {
+//   console.log(this);
+//   }
+// }
+// debugger;
+// foo.baz(); 
+// let bar = foo.baz;
+// bar();
+// myPromise
+function myPromise(){
+    
+}
+    </script>
+</body>
+</html>
