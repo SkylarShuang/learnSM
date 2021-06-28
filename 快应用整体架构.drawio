@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T06:25:05.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="aaIsV3d9sHr_kQP6dk0f" version="14.8.1" type="github"><diagram id="3GTP0BFjwvXrmvVc28EH" name="Page-1">7Vpbc6M2FP41mmkfkgFxfzSOk62nu92Op+mmbzLINhtArMC3/voecTFgYceZjUOcdB+y0pGOkL5z9H0cEqQNo80dJ8niM/NpiLDib5B2gzBWDWzDf8KyLSyWigvDnAd+Oak2TIJ/aWlUSusy8GnampgxFmZB0jZ6LI6pl7VshHO2bk+bsbD91ITMqWSYeCSUrX8HfrYorDa2avsnGswX1ZNV0ylGIlJNLk+SLojP1g2TNkLakDOWFa1oM6ShAK/CpfC7PTC62xincXaKw93YpdFfo8ft1Vd1Pfvnk/Zj+3BVhSfNttWJqQ8AlF3GswWbs5iEo9rqcraMfSqWVaBXz/mdsQSMKhi/0yzbltEky4yBaZFFYTlKN0H2TbhfW0bZfShXE+2bTbOzrTpxxrdNL9F/qFYUndov71WOxQnFsQ4iV5pStuQePQKXVmYg4XOaHZln7eILF4OyiMJ+wI/TkGTBqr0PUmbofDevDiI0yjg+I6blJlckXJZPQtgMYbvujMGBsTnPclSaNiWtbp75Yyky0tXrZuXypdh86Qh761pvyg89YZdi1bpi4Kp48AAmqHqyaT4U7nTIeMsDYc3J/8mbU6/RyESujVwsGs4tcjQ0ctBARa4hGs4NGghc5I3i3NWGuRYa2cLDHqKRgRwXOSNhcRVka88+tzRx76LV10hk8HoRZHSSkDz/1kCm7SszC8JwuMNDm9ke9Tywpxlnj7QxMrUN3ajTfkV5RjfHE19O1MrBLsmsJG/DLrlsXVOhrpe2RYMGbeNMua33S1e4SVfV0JN0hVt0VRPU2enKOpGutF7pSuk3phcmQafGVFX6DKr1hAadoAZ2Ww0KEh1/+e0w4aYJiTuXLoVELMvn019UQ8t1YCge027/Kjq5+DwhTk3RaSvHeJLrD5jBpiPXRa4J80kkGD2epklbIopNy1rymsfoD0B8PZ7cchLRNeOPQnNdgBDn4osBy+9kRWqrHPiRhZwBsnWh76BN0BaI34pAQAzg58DIG7CWegLmr6ffvkFtX+/SbxtPNdM8j37rinGafqvKuQS853rjwgS8qoLfdsFR7fII259QXcgXcQy3f+LxIBFLTAKfPuOu9qkIFnKHQgCEIkAZooqGPch5zRI/XSfnNEcIAzTsYk7OYLbaVcWYoiDZyclA/19ODsqJABQAEpIA2gCAmh2VnMAR4uE29fkYgD+VxT0JDKH2rLNAND2bTmfnERisnVggqopyLjJSJTLySBh+pqAavgQxHD1r49jGK2Yx3QO3NJEwmMfQ9QAqCnZXABnAowblQBT4fi5fXYFrS9oLRAJeHFqR0KyOSHQEAp8tDliKQxCvANp3HAN973OJZvUcA/lT4GfmL0OaHuEa5dlcM5vNcPfHKN+cmsYLvcxiZY9rDDnD7Q50tbOhq0vo3t+w6D1A6/QNrSFBO1qJw/wUtocxPIT6C2BrqG8tbU0J229/TFPK4ZgXmLsSvr3nrvztK6WxP/CygMUy8b4f9dt/A+lI9NdVP1sKhM8+QBj2XkJw32FwpDBUBVDSWR1GhM+DuCjzFFHltSrAjNPMWxSjMeMRCQ+WiFrDOQxielWd95DvjERBuC3GdzU28JUmvtQtaLiiIrDCmS6pNEEuBumGeuOJS8SG65ovOVjwvZskNIw3loTVwh8wCRPOPJqmQyiCifeYfrBErMrgSpTMvhNRLouBIXggvhZf3svXfuGg6/ha/hXDq75+YbnmvYcXgds/l4H3CPbxJda+hqK8NZw1+TvbV8LTi6wh9tPYVKze4ZV54j6g6zsAM7lAhPertLMiDN36zyrzscYfp2qj/wA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-28T06:53:39.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="CFjCb2XVC2tGGyCXemfR" version="14.8.1" type="github">
+  <diagram id="3GTP0BFjwvXrmvVc28EH" name="Page-1">
+    <mxGraphModel dx="1528" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GJBemUEky-P1wfZH3qyY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GJBemUEky-P1wfZH3qyY-3" target="GJBemUEky-P1wfZH3qyY-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-3" value="&lt;font&gt;&lt;font size=&quot;4&quot;&gt;Native&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#999999&quot;&gt;1.渲染页面 &lt;br&gt;2.执行回调&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="189" y="580" width="440" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GJBemUEky-P1wfZH3qyY-7" target="GJBemUEky-P1wfZH3qyY-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GJBemUEky-P1wfZH3qyY-7" target="GJBemUEky-P1wfZH3qyY-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;JNI&lt;br&gt;&lt;span style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;1.执行JS文件&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;2.JSFramework层和java层&lt;br&gt;的通信桥梁&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="189" y="405" width="440" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GJBemUEky-P1wfZH3qyY-10" target="GJBemUEky-P1wfZH3qyY-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-10" value="&lt;font size=&quot;4&quot;&gt;&lt;br&gt;JavaScript Side&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;1.编译节点并发送渲染指令&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(153 , 153 , 153) ; font-size: 14px&quot;&gt;2.处理回调事件&lt;/span&gt;&lt;font size=&quot;4&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="189" y="230" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-11" value="callMethod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="238" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-12" value="invoke" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="249" y="537" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-13" value="Modules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="209" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-14" value="VDom" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="209" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-15" value="Event" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="519" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-16" value="XObserver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="519" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-17" value="sendActions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="238" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-18" value="doActions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="239" y="520" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-19" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;execJSBatch&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="559" y="520" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-20" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;processCallacks&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-22" value="JSBridge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="209" y="442.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-23" value="V8/Quick Js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="519" y="442.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-31" value="Parser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="209" y="607.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJBemUEky-P1wfZH3qyY-32" value="ViewGroup" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="519" y="607.5" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
