@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T06:52:35.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="-ruHVKVtd3RO0ZMzZcBw" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T08:49:02.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="oUlXuWjk2azDWxav5FvT" version="17.4.3" type="github">
   <diagram id="yEd0jzltt0LUcWKa2rOL" name="Page-1">
-    <mxGraphModel dx="2265" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4392" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,10 +48,10 @@
         <mxCell id="oA7hNO-jwlWGk1mkXq1c-4" value="web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="270" y="282.5" width="124" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="wBtCahBzlfikf2I_tONs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="oA7hNO-jwlWGk1mkXq1c-6" target="oA7hNO-jwlWGk1mkXq1c-4">
+        <mxCell id="wBtCahBzlfikf2I_tONs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="oA7hNO-jwlWGk1mkXq1c-6" target="oA7hNO-jwlWGk1mkXq1c-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wBtCahBzlfikf2I_tONs-5" value="&lt;span style=&quot;color: rgb(26 , 51 , 0) ; font-size: 16px&quot;&gt;返回胜利的玩家&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wBtCahBzlfikf2I_tONs-4">
+        <mxCell id="wBtCahBzlfikf2I_tONs-5" value="&lt;span style=&quot;color: rgb(26 , 51 , 0) ; font-size: 16px&quot;&gt;返回胜利的玩家&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wBtCahBzlfikf2I_tONs-4" vertex="1" connectable="0">
           <mxGeometry x="0.3264" y="2" relative="1" as="geometry">
             <mxPoint x="76" y="-2" as="offset" />
           </mxGeometry>
@@ -59,19 +59,103 @@
         <mxCell id="oA7hNO-jwlWGk1mkXq1c-6" value="后台" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="780" y="282.5" width="120" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="wBtCahBzlfikf2I_tONs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="wBtCahBzlfikf2I_tONs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-130" y="473.5" as="sourcePoint" />
             <mxPoint x="270" y="473.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wBtCahBzlfikf2I_tONs-3" value="&lt;span style=&quot;color: rgb(26 , 51 , 0) ; font-size: 16px&quot;&gt;返回靠近宝箱呼吸点的玩家的信息和靠近的宝箱id&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wBtCahBzlfikf2I_tONs-2">
+        <mxCell id="wBtCahBzlfikf2I_tONs-3" value="&lt;span style=&quot;color: rgb(26 , 51 , 0) ; font-size: 16px&quot;&gt;返回靠近宝箱呼吸点的玩家的信息和靠近的宝箱id&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wBtCahBzlfikf2I_tONs-2" vertex="1" connectable="0">
           <mxGeometry x="-0.185" y="-1" relative="1" as="geometry">
             <mxPoint x="37" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oA7hNO-jwlWGk1mkXq1c-11" value="SDK" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-250" y="290" width="120" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-1" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1040" width="400" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-2" value="&lt;font style=&quot;font-size: 19px&quot;&gt;拜访列表&lt;br&gt;（不活跃用户和活跃用户）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1090" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-3" value="&lt;span style=&quot;font-size: 19px&quot;&gt;移除一个或多个拜访用户&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1240" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-4" value="&lt;span style=&quot;font-size: 19px&quot;&gt;主播邀请一个或者多个用户进行拜访&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1400" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-5" value="&lt;span style=&quot;font-size: 19px&quot;&gt;用户同意拜访&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1550" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-6" value="&lt;span style=&quot;font-size: 19px&quot;&gt;储存拜访设置状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1704" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-7" value="&lt;b&gt;后台&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-9" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1040" width="400" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-10" value="&lt;span style=&quot;font-size: 19px&quot;&gt;单个和多个用户禁麦和恢复麦克风&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="1090" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-11" value="&lt;span style=&quot;font-size: 19px&quot;&gt;实名认证接口&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="1240" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-12" value="&lt;span style=&quot;font-size: 19px&quot;&gt;在开麦的时候监听麦克风的音量，然后进行显示&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="1400" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-13" value="&lt;span style=&quot;font-size: 19px&quot;&gt;拜访页面的收归，也需要客户端进行页面的调整&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="1550" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-14" value="&lt;span style=&quot;font-size: 19px&quot;&gt;一些问题：&lt;br&gt;麦克风的位置在底部属于客户端的底部栏，可能需要更改位置&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="1704" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-15" value="&lt;b&gt;客户端&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-16" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="2130" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-17" value="&lt;span style=&quot;font-size: 19px&quot;&gt;是否展示头顶气泡和头顶名称的设置事件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2180" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-18" value="&lt;span style=&quot;font-size: 19px&quot;&gt;显示麦克风的状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="2330" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-22" value="&lt;b&gt;SDK&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-25" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="1040" width="400" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#7EA6E0;" edge="1" parent="1" source="GVZo_o3zpUGIkkK0RfOt-26" target="GVZo_o3zpUGIkkK0RfOt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-26" value="&lt;span style=&quot;font-size: 19px&quot;&gt;拜访模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1090" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#7EA6E0;" edge="1" parent="1" source="GVZo_o3zpUGIkkK0RfOt-27" target="GVZo_o3zpUGIkkK0RfOt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-27" value="&lt;span style=&quot;font-size: 19px&quot;&gt;开麦状态管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1240" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-28" value="&lt;span style=&quot;font-size: 19px&quot;&gt;主播邀请一个或者多个用户进行拜访&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1400" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-29" value="&lt;span style=&quot;font-size: 19px&quot;&gt;用户同意拜访&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1550" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;fontColor=#7EA6E0;" edge="1" parent="1" source="GVZo_o3zpUGIkkK0RfOt-30" target="GVZo_o3zpUGIkkK0RfOt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-30" value="&lt;span style=&quot;font-size: 19px&quot;&gt;储存拜访设置状态&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="1704" width="246" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVZo_o3zpUGIkkK0RfOt-31" value="&lt;b&gt;web&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
