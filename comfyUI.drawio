@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T12:25:37.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GhsWBpx8lg1jyyrex4F-" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T02:56:48.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="u_mytrw96_7qPGm3gylP" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1769" dy="2132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="iJw0LIFVypzQFhsucQgz-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;创建Event Loop&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="334" y="-50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iJw0LIFVypzQFhsucQgz-7" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;新建prompt_worker守护进程&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="iJw0LIFVypzQFhsucQgz-7" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;新建prompt_worker守护线程&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="301.5" y="131" width="246" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iJw0LIFVypzQFhsucQgz-8" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;开启服务&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -50,7 +50,7 @@
           <mxGeometry x="1103" y="307" width="385" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iJw0LIFVypzQFhsucQgz-18" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="200" width="100" height="60" as="geometry" />
+          <mxGeometry x="790" y="201" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
